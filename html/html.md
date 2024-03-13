@@ -85,3 +85,24 @@
 ```
 ### 属性：
 只有全局属性。
+
+
+## audio元素
+### 描述：
+用于在文档中嵌入音频内容。可以使用**src属性**或者**source元素**来进行描述。
+### 例子：
+```
+ <audio
+    src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3"
+    controls autoplay>
+  </audio>
+```
+### 属性：
+- src：嵌入音频的URL。
+- autoplay：布尔属性，尽快播放，不会等音频下载完。
+- controls：提供可以控制音频播放的控制面板。
+- currentTime：当前音频播放的位置。
+- loop：无限循环播放。
+- muted：静音播放。
+- duration：音频的长度。
+
