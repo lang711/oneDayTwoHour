@@ -130,3 +130,19 @@
 ### 属性：
 - href：用于文档中的基础URL，可以是绝对或相对路径。
 - target：同a元素的target属性一致，也是所有链接的默认target。
+
+## blockquote元素
+### 描述：
+代表其中文字是引用内容。
+
+### 例子：
+```
+<blockquote cite="https://tools.ietf.org/html/rfc1149">
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum omnis qui dignissimos laboriosam quasi totam aliquam amet quisquam,enim nisi atque, nihil porro eum ducimus itaque quaerat consequuntur
+  </p>
+</blockquote>
+```
+### 属性：
+- cite：标注引用信息来源或相关信息的URL。
+
