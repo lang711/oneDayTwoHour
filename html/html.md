@@ -117,3 +117,16 @@
 ### 属性：
 只有全局属性。
 
+## base元素
+### 描述：
+指定文档中所有包含相对URL的根URL，文档中只能有一个base元素。
+
+### 例子：
+```
+//http://examp.com/abc
+<base href="http://examp.com" target="_blank" />
+<a href="/abc">随机地址</a> 
+```
+### 属性：
+- href：用于文档中的基础URL，可以是绝对或相对路径。
+- target：同a元素的target属性一致，也是所有链接的默认target。
