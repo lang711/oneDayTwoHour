@@ -260,3 +260,20 @@
 - src：嵌套资源的URL。
 - width：显示的宽度。
 - height：显示的高度。
+
+
+## fieldset元素
+### 描述：
+用于对表单中的控制元素进行分组，当然也可以在表单外使用。
+`<legend>`元素表示分组标题。
+### 例子：
+```
+<fieldset>
+    <legend>张三</legend>
+    <div>年龄：20</div>
+    <div>性别：男</div>
+</fieldset>
+```
+### 属性：
+- disabled：子代表单元素会继承这个属性。
+- form：与`<form>`表单关联。
