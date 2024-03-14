@@ -245,3 +245,18 @@
 ```
 ### 属性：
 只有全局属性。
+
+
+## embed元素
+### 描述：
+将外部内容嵌入文档中的指定位置。此内容由外部程序或插件提供。
+### 例子：
+```
+  <embed src="https://picsum.photos/200/300" type="" />
+  <embed src="https://chat.baidu.com/" />
+```
+### 属性：
+- type：mime类型。
+- src：嵌套资源的URL。
+- width：显示的宽度。
+- height：显示的高度。
