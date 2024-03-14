@@ -146,3 +146,22 @@
 ### 属性：
 - cite：标注引用信息来源或相关信息的URL。
 
+
+## button元素
+### 描述：
+表示一个可点击的按钮，可以用在**表单**或文档其他需要按钮的地方，但按钮的样式各个浏览器可能不同。
+
+### 例子：
+```
+<section>
+  <button autofocus disabled>按钮</button>
+</section>
+```
+### 属性：
+- type：
+    - submit，将表单数据提交给服务器。
+    - reset，重置表单元素。
+    - button，表示普通按钮。
+- disabled：禁用按钮。
+- autofocus：获取焦点。
+
