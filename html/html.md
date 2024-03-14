@@ -165,3 +165,16 @@
 - disabled：禁用按钮。
 - autofocus：获取焦点。
 
+
+
+## canvas元素
+### 描述：
+被**javascript**用来绘制图形及图形动画。
+
+### 例子：
+```
+ <canvas width="300" height="300"> 我是张三丰 </canvas>
+```
+### 属性：
+- width：画布的宽度，默认300px。
+- height：画布的高度，默认150px。
