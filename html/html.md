@@ -302,3 +302,22 @@
 ```
 ### 属性：
 只有全局属性。
+
+
+## form元素
+### 描述：
+表示文档中的一个区域，用于向web服务器提交信息。
+### 例子：
+```
+<form action="#">
+  <label for="">
+    <span>姓名：</span>
+    <input type="text" />
+  </label>
+</form>
+```
+### 属性：
+- action：处理表单提交的URL。
+- method：使用**http**方式提交表单
+    - get：表单数据会附加于**action**属性的URL中，并以*?*分隔。
+    - post：表单数据会包含在表单体内发送给服务器。
