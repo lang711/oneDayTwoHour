@@ -277,3 +277,18 @@
 ### 属性：
 - disabled：子代表单元素会继承这个属性。
 - form：与`<form>`表单关联。
+
+
+## figure元素
+### 描述：
+表示一段独立的内容，通常用于插图。
+`<figcaption>`元素表示内容标题。
+### 例子：
+```
+ <figure>
+    <img src="https://picsum.photos/200" alt="" />
+    <figcaption>图片标题</figcaption>
+  </figure>
+```
+### 属性：
+只有全局属性。
